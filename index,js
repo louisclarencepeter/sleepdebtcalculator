@@ -32,3 +32,12 @@ function getActualSleepHours() {
   
     return weekSleepHours;
   }
+
+// getting the ideal sleep hours that you prefer
+
+function getIdealSleepHours() {
+    const idealHours = 8;
+    return idealHours * 7;
+  }
+
+// calculating the sleep debt
