@@ -59,7 +59,7 @@ If you got the perfect amount of sleep, the program will tell you so. If you got
 
 ## Contributing
 
-If you find any bugs or have any suggestions for how to improve the program, feel free to create a pull request or submit an issue on the repository. We welcome contributions from anyone who wants to help make the program better!
+If you find any bugs or have any suggestions for how to improve the program, feel free to create a pull request or submit an issue on the repository. I welcome contributions from anyone who wants to help make the program better!
 
 ## License
 
