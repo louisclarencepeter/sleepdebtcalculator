@@ -1,3 +1,5 @@
+// getting the Number of Sleep Hours
+
 function getSleepHours(day) {
   if (day === "monday") {
     return 7;
@@ -15,3 +17,18 @@ function getSleepHours(day) {
     return 7;
   }
 }
+
+// getting the total sleep hours that you actually slept
+
+function getActualSleepHours() {
+    const weekSleepHours =
+      getSleepHours("monday") +
+      getSleepHours("tuesday") +
+      getSleepHours("wednesday") +
+      getSleepHours("thursday") +
+      getSleepHours("friday") +
+      getSleepHours("saturday") +
+      getSleepHours("sunday");
+  
+    return weekSleepHours;
+  }
