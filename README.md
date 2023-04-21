@@ -1,5 +1,3 @@
-Sure, here's an example of what a README file could look like:
-
 # Sleep Tracker
 
 This is a simple program that helps you keep track of how much sleep you're getting each week and lets you know if you're getting enough sleep or not.
