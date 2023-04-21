@@ -63,4 +63,4 @@ function calculateSleepDebt() {
     }
   }
 
-calculateSleepDebt(); 
+calculateSleepDebt(); // calling the function
