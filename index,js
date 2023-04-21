@@ -41,3 +41,26 @@ function getIdealSleepHours() {
   }
 
 // calculating the sleep debt
+
+function calculateSleepDebt() {
+    const actualSleepHours = getActualSleepHours();
+    const idealSleepHours = getIdealSleepHours();
+  
+    if (actualSleepHours === idealSleepHours) {
+      console.log("You got the perfect amount of sleep this week.");
+    } else if (actualSleepHours > idealSleepHours) {
+      console.log(
+        "You got " +
+          (actualSleepHours - idealSleepHours) +
+          " hour(s) more sleep than you needed this week. You overslept."
+      );
+    } else {
+      console.log(
+        "You got " +
+          (idealSleepHours - actualSleepHours) +
+          " hour(s) less sleep than you needed this week. Get some more rest."
+      );
+    }
+  }
+
+calculateSleepDebt(); 
