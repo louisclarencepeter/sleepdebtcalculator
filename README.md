@@ -61,6 +61,3 @@ If you got the perfect amount of sleep, the program will tell you so. If you got
 
 If you find any bugs or have any suggestions for how to improve the program, feel free to create a pull request or submit an issue on the repository. I welcome contributions from anyone who wants to help make the program better!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
